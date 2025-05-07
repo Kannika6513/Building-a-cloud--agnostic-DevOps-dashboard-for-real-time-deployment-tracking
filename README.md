@@ -1,4 +1,3 @@
-# Cloud-Agnostic DevOps Dashboard
 
 # 🚀 Cloud-Agnostic DevOps Dashboard for Real-Time Deployment Tracking
 
