@@ -62,16 +62,17 @@ Code → GitHub → Jenkins CI Pipeline → Docker Build → Push to Docker Hub 
 ├── docker-compose.yml     # Local testing setup
 ├── README.md
 └── Jenkinsfile            # Jenkins pipeline definition
+```
 
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
-##🖥️ Local Setup (Using Docker Compose)
+## 🖥️ Local Setup (Using Docker Compose)
 git clone https://github.com/Kannika6513/Building-a-cloud--agnostic-DevOps-dashboard-for-real-time-deployment-tracking.git
 cd Building-a-cloud--agnostic-DevOps-dashboard-for-real-time-deployment-tracking
 docker-compose up --build
 
-##⚙️ CI/CD Pipeline Stages
+## ⚙️ CI/CD Pipeline Stages
 
 Code Commit → Trigger Jenkins
 
@@ -85,20 +86,20 @@ Deploy → To Kubernetes via Helm
 
 Monitor → Health metrics via Prometheus
 
-##📊 Monitoring Dashboard
+## 📊 Monitoring Dashboard
 
 Prometheus: Collects metrics from Kubernetes cluster
 
 Grafana: Custom dashboard visualizing app health & deployments
 
-##🔐 Security Considerations
+## 🔐 Security Considerations
 Secrets managed via Kubernetes Secrets and .env files
 
 Jenkins credentials stored securely
 
 Token-based access to dashboards
 
-##🧠 Future Enhancements
+## 🧠 Future Enhancements
 
 🔄 Auto-scaling with Horizontal Pod Autoscaler
 
